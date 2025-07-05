@@ -5,7 +5,10 @@ This is a simple example of a WebSocket server using the `ws` library in Node.js
 ## Installation
 
 ```bash
-npm install
+npm init -y
+npm install typescript
+npx tsc --init
+npm install ws @types/ws
 ```
 
 ## Usage
